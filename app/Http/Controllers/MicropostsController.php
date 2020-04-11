@@ -20,6 +20,7 @@ class MicropostsController extends Controller
         }
         
         return view('welcome', $data);
+
     }
     
     
@@ -48,3 +49,9 @@ class MicropostsController extends Controller
         return back();
     }
 }
+
+    
+        
+    
+    
+   
